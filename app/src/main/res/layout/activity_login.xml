@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.fyqu.sampler.activity.Login">
+
+    <TextView
+        android:id="@+id/text_power"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="权限身份"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="请输入用户名称"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="请输入用户密码"
+        android:inputType="textPassword"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+</LinearLayout>
